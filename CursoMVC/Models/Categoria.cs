@@ -13,6 +13,5 @@ namespace CursoMVC.Models
         [Required(ErrorMessage = "O campo descrição é obrigatório")] // Para trazer uma mensagem em baixo do textbox
         public string Descricao { get; set; }
 
-        public List<Produto> Produtos { get; set; }
     }
 }
